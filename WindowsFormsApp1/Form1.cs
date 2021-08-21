@@ -22,7 +22,7 @@ namespace WindowsFormsApp1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            oCon.ConnectionString = "server=192.168.0.12; uid=Aluno2DS; pwd=SenhaBD2; database=BANCOCOMUM";
+            oCon.ConnectionString = "server=localhost; uid=root; database=BANCOCOMUM";
             oCon.Open();
 
             fnCarrega();
